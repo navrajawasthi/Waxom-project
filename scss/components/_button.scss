@@ -1,0 +1,13 @@
+%button {
+    text-transform: uppercase;
+    padding: 18px 40px;
+    background: $color-brown;
+    border-radius: 3px;
+    box-shadow: inset 0px 3px 0 0 #736357;
+    transition: 0.5s ease-in-out;
+    &:hover {
+        color: $color-brown;
+        background: $color-dark-gray;
+        box-shadow: inset 0px 3px 0 0 $color-dark-gray;
+    }
+}
